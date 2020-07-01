@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+section{
+    height: 900px;
+}
+.top-half-width{
+    float: left;
+}
+.top-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-half-width img{
+    width: 100%;
+}
+.c-name{
+    color: rgb(236,76,122);
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.top-right{
+    width: 30%;
+    margin-top: 220px;
+    margin-right: 15%;
+}
+.top-left{
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 250px;
+}
+p{
+    color: gray;
+    margin-bottom: 40px;
+}
+.hire-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(236,76,122);
+    border-radius: 5px;
+    color: white;
+}
+.dream-half-width{
+    width: 35%;
+    float: left;
+}
+.dream-half-width img{
+    width: 100%;
+}
+.biography-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: left top;
+}
+.dream-left{
+    margin-left: 8%;
+    padding-top: 80px;
+}
+.dream-right{
+    margin-left: 10%;
+    padding-top: 200px;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 680px;
+}
+.wrapper-latest{
+    width: 90%;
+    margin: auto;
+}
+.latest{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.latest img{
+    width: 100%;
+}
+.latest-heading{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.client-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.wrapper-client{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.client-say{
+    margin-bottom: 100px;
+}
+.client-add{
+    margin-bottom: 70px;
+}
+.founder{
+    color: darkgray;
+}
+.client-comment{
+    margin-bottom: 80px;
+}
+.mail-area{
+    width: 100%;
+    background-color: rgb(236,76,122);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 60px 0px;
+    margin-bottom: 50px;
+}
+.footer{
+    color: darkgray;
+    text-align: center;
+}
+.register-div{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+legend{
+    font-weight: bold;
+    color: orange;
+    font-size: 40px;
+}
+.button{
+    padding: 10px 20px;
+    border: 1px solid #d3d3d3;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color: rgb(236,76,122);
+    cursor: pointer;
+}
+.or{
+    text-align: center;
+}
+.signup-div{
+    width: 60%;
+    margin: auto;
+}
